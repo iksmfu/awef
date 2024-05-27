@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Redirect</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="loader">
+    <h1>iksm.store Loading...</h1>
+    <div class="cube">
+      <div class="face front"></div>
+      <div class="face back"></div>
+      <div class="face right"></div>
+      <div class="face left"></div>
+      <div class="face top"></div>
+      <div class="face bottom"></div>
+    </div>
+  </div>
+
+  <script>
+    setTimeout(function(){
+      window.location.href = "https://iksmstore.sellpass.io"; // Change this to your desired redirect page
+    }, 3000); // 5000 milliseconds = 5 seconds
+  </script>
+</body>
+</html>
